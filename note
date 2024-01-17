@@ -1,0 +1,85 @@
+                <!-- TradingView Widget BEGIN -->
+          <div class="tradingview-widget-container">
+            <div class="tradingview-widget-container__widget"></div>
+            <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com" rel="noopener" target="_blank"><span class="blue-text"></span></a></div>
+            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+            {
+            "symbols": [
+              {
+                "description": "",
+                "proName": "COINBASE:BTCUSD"
+              },
+              {
+                "description": "",
+                "proName": "MEXC:XENUSDT"
+              },
+              {
+                "description": "",
+                "proName": "UNISWAP:HEXUSDC"
+              },
+              {
+                "description": "",
+                "proName": "BINANCE:BNBUSDT"
+              },
+              {
+                "description": "",
+                "proName": "BINANCE:DOGEUSDT"
+              }
+            ],
+            "colorTheme": "dark",
+            "isTransparent": false,
+            "locale": "en"
+          }
+            </script>
+            <div class="tradingview-widget-container__widget"></div>
+            <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com" rel="noopener" target="_blank"><span class="blue-text"></span></a></div>
+            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+            {
+            "symbols": [
+              {
+                "description": "",
+                "proName": "COINBASE:ETHUSD"
+
+              },
+              {
+                "description": "",
+                "proName": "COINBASE:MATICUSDT"
+              },
+              {
+                "description": "",
+                "proName": "COINBASE:OPUSDT"
+              },
+              {
+                "description": "",
+                "proName": "BINANCE:ADAUSDT"
+              },
+              {
+                "description": "",
+                "proName": "BINANCE:XRPUSDT"
+              }
+            ],
+            "colorTheme": "dark",
+            "isTransparent": false,
+            "locale": "en"
+          }
+            </script>
+          </div>
+          <!-- TradingView Widget END -->
+
+
+          <a href="https://cryptopanic.com/" target="_blank" data-news_feed="trending" data-bg_color="#1E222D" data-text_color="#C8C8C8" data-link_color="#FFFFFF" data-header_bg_color="#232368" data-header_text_color="#FFFFFF" data-posts_limit="10" data-font_family="sans" class="CryptoPanicWidget">Latest News</a>
+
+          <div class="cryptohopper-web-widget" data-id="1" data-chart_color="#3384fa" data-price_format="3" data-table_style="dark" data-realtime="on" data-table_length="11"></div>
+
+          <div class="cryptohopper-web-widget" data-id="6" data-background_color="#1e222d"></div>
+        
+          <script src="https://www.cryptohopper.com/widgets/js/script"></script>
+          <script src="https://static.cryptopanic.com/static/js/widgets.min.js"></script>
+
+
+          <a href="mailto:cryptokingus@gmail.com" class="footer-contact-link">Email Us</a>
+          <a href="https://linktr.ee/donatelloinvesting" class="footer-contact-link">Linktree</a>
+
+          &copy; 2024 DonatelloInvesting | All Rights Reserved by <a href="https://webproducermanager.com/" class="copyright-link">webproducermanager</a>
+
+          

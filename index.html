@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Solutry - Secure IT solutions</title>
+  <title>Donatello Investing - Learn and Grow in Defi</title>
 
   <!-- 
     - favicon
@@ -22,7 +22,8 @@
   -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap"
+  <link
+    href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&family=Roboto:wght@400;500;700&display=swap"
     rel="stylesheet">
 </head>
 
@@ -35,47 +36,45 @@
   <header class="header" data-header>
     <div class="container">
 
-      <a href="#" class="logo">
-        <img src="./assets/images/logo.svg" alt="Solutry logo">
-      </a>
+      <a href="#" class="logo">DonatelloInvesting</a>
 
-      <button class="nav-toggle-btn" data-nav-toggle-btn>
-        <ion-icon name="menu-outline" class="open"></ion-icon>
-        <ion-icon name="close-outline" class="close"></ion-icon>
-      </button>
+      <nav class="navbar container" data-navbar>
+        <ul class="navbar-list">
 
-      <nav class="navbar">
-        <div class="container">
-          <ul class="navbar-list">
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
 
-            <li>
-              <a href="#home" class="navbar-link" data-navbar-link>Home</a>
-            </li>
+          <li>
+            <a href="#service" class="navbar-link" data-nav-link>Services</a>
+          </li>
 
-            <li>
-              <a href="#features" class="navbar-link" data-navbar-link>Features</a>
-            </li>
+          <li>
+            <a href="#project" class="navbar-link" data-nav-link>Project</a>
+          </li>
 
-            <li>
-              <a href="#service" class="navbar-link" data-navbar-link>Service</a>
-            </li>
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>About Us</a>
+          </li>
 
-            <li>
-              <a href="#blog" class="navbar-link" data-navbar-link>Blog</a>
-            </li>
+          <li>
+            <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+          </li>
 
-            <li>
-              <a href="#newsletter" class="navbar-link" data-navbar-link>Newsletter</a>
-            </li>
+          <li>
+            <a href="#contact" class="navbar-link" data-nav-link>Contact Us</a>
+          </li>
 
-          </ul>
-        </div>
+          <li>
+            <a href="#" class="btn btn-primary">Get Started</a>
+          </li>
+
+        </ul>
       </nav>
 
-      <button class="btn btn-secondary">
-        <span>Get Started</span>
-
-        <ion-icon name="chevron-forward-outline"></ion-icon>
+      <button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggler>
+        <ion-icon name="menu-outline" class="open"></ion-icon>
+        <ion-icon name="close-outline" class="close"></ion-icon>
       </button>
 
     </div>
@@ -92,146 +91,27 @@
         - #HERO
       -->
 
-      <section class="hero" id="home">
-
-        <img src="./assets/images/shape1.png" alt="Illustration art" class="shape shape-1">
-        <img src="./assets/images/shape2.png" alt="Illustration art" class="shape shape-2">
-        <img src="./assets/images/shape3.png" alt="Illustration art" class="shape shape-3">
-
+      <section class="section hero" id="home" aria-label="hero">
         <div class="container">
-
-          <figure class="hero-banner">
-            <img src="./assets/images/hero-banner.png" alt="Illustration art" loading="lazy" class="w-100">
-          </figure>
 
           <div class="hero-content">
 
-            <h2 class="h1 hero-title">Secure IT solutions for a more secure environment</h2>
+            <p class="hero-subtitle">Defi Consultant</p>
 
-            <p class="section-text">
-              Velit hendrerit sit auctor tempor sem. Congue mi tempor condimentum felis arcu, non cursus. Nulla pharetra
-              porttitor sed
-              platea arcu et leo odio.
+            <h1 class="h1 hero-title">Learn and Grow in Defi</h1>
+
+            <p class="hero-text">
+              Gain knowledge for a industry Vet.
+
             </p>
 
-            <button class="btn btn-primary">
-              <span>Get Started Now</span>
-
-              <ion-icon name="chevron-forward-outline"></ion-icon>
-            </button>
+            <a href="#" class="btn btn-primary">Get Started</a>
 
           </div>
 
-        </div>
-
-      </section>
-
-
-
-
-
-      <!-- 
-        - #FEATURES
-      -->
-
-      <section class="features" id="features">
-        <div class="container">
-
-          <p class="section-subtitle">How Can Help You</p>
-
-          <h2 class="h2 section-title">We’re helping teams do their best work</h2>
-
-          <ul class="features-list">
-
-            <li>
-              <div class="features-card">
-
-                <div class="card-icon">
-                  <img src="./assets/images/features-icon-1.png" alt="Illustration icon">
-                </div>
-
-                <h3 class="h3 card-title">Zero Configuration</h3>
-
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet, conse ctetur adipiscing elit. Sed est non feugiat sagittis.
-                </p>
-
-                <a href="#" class="card-link">
-                  <span>Learn More</span>
-
-                  <ion-icon name="chevron-forward-outline"></ion-icon>
-                </a>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="features-card">
-
-                <div class="card-icon">
-                  <img src="./assets/images/features-icon-2.png" alt="Illustration icon">
-                </div>
-
-                <h3 class="h3 card-title">Code Security</h3>
-
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet, conse ctetur adipiscing elit. Sed est non feugiat sagittis.
-                </p>
-
-                <a href="#" class="card-link">
-                  <span>Learn More</span>
-
-                  <ion-icon name="chevron-forward-outline"></ion-icon>
-                </a>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="features-card">
-
-                <div class="card-icon">
-                  <img src="./assets/images/features-icon-3.png" alt="Illustration icon">
-                </div>
-
-                <h3 class="h3 card-title">Team Management</h3>
-
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet, conse ctetur adipiscing elit. Sed est non feugiat sagittis.
-                </p>
-
-                <a href="#" class="card-link">
-                  <span>Learn More</span>
-
-                  <ion-icon name="chevron-forward-outline"></ion-icon>
-                </a>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="features-card">
-
-                <div class="card-icon">
-                  <img src="./assets/images/features-icon-4.png" alt="Illustration icon">
-                </div>
-
-                <h3 class="h3 card-title">Access Controlled</h3>
-
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet, conse ctetur adipiscing elit. Sed est non feugiat sagittis.
-                </p>
-
-                <a href="#" class="card-link">
-                  <span>Learn More</span>
-
-                  <ion-icon name="chevron-forward-outline"></ion-icon>
-                </a>
-
-              </div>
-            </li>
-
-          </ul>
+          <figure class="hero-banner">
+            <img src="./assets/images/hero-banner.png" width="720" height="673" alt="hero banner" class="w-100">
+          </figure>
 
         </div>
       </section>
@@ -244,120 +124,408 @@
         - #SERVICE
       -->
 
-      <section class="service" id="service">
+      <section class="section service" id="service" aria-label="service">
         <div class="container">
 
-          <figure class="service-banner">
-            <img src="./assets/images/service-1.png" alt="Illustration art" loading="lazy" class="w-100">
-          </figure>
+          <h2 class="h2 section-title">Services We Provided</h2>
 
-          <div class="service-content">
+          <p class="section-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna.
+          </p>
 
-            <p class="section-subtitle">Services We Offer</p>
+          <ul class="grid-list">
 
-            <h2 class="h2 section-title">We are here, to help your startup business</h2>
+            <li>
+              <div class="service-card">
 
-            <ul class="service-list">
-
-              <li class="service-item">
-
-                <div class="service-item-icon">
-                  <ion-icon name="checkmark-outline"></ion-icon>
+                <div class="card-icon" style="background-color: #13c4a1">
+                  <ion-icon name="chatbox"></ion-icon>
                 </div>
 
-                <h3 class="h3 service-item-title">Cloud Databases</h3>
+                <h3 class="h3">
+                  <a href="#" class="card-title">Wallet Management</a>
+                </h3>
 
+                <p class="card-text">
+                  Sed ut perspiciatis unde omnis iste natus error sit tatem accusantium doloremque laudantium, totam rem
+                  aperiam, eaque
+                  ipsa quae.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon" style="background-color: #6610f2">
+                  <ion-icon name="desktop"></ion-icon>
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Investment Research</a>
+                </h3>
+
+                <p class="card-text">
+                  Sed ut perspiciatis unde omnis iste natus error sit tatem accusantium doloremque laudantium, totam rem
+                  aperiam, eaque
+                  ipsa quae.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon" style="background-color: #ffb700">
+                  <ion-icon name="bulb"></ion-icon>
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Market Research</a>
+                </h3>
+
+                <p class="card-text">
+                  Sed ut perspiciatis unde omnis iste natus error sit tatem accusantium doloremque laudantium, totam rem
+                  aperiam, eaque
+                  ipsa quae.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon" style="background-color: #fc3549">
+                  <ion-icon name="phone-portrait"></ion-icon>
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Exchange and Trading</a>
+                </h3>
+
+                <p class="card-text">
+                  Sed ut perspiciatis unde omnis iste natus error sit tatem accusantium doloremque laudantium, totam rem
+                  aperiam, eaque
+                  ipsa quae.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon" style="background-color: #00d280">
+                  <ion-icon name="archive"></ion-icon>
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">On and Off Ramp</a>
+                </h3>
+
+                <p class="card-text">
+                  Sed ut perspiciatis unde omnis iste natus error sit tatem accusantium doloremque laudantium, totam rem
+                  aperiam, eaque
+                  ipsa quae.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon" style="background-color: #ff612f">
+                  <ion-icon name="build"></ion-icon>
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Tip and Tricks</a>
+                </h3>
+
+                <p class="card-text">
+                  Sed ut perspiciatis unde omnis iste natus error sit tatem accusantium doloremque laudantium, totam rem
+                  aperiam, eaque
+                  ipsa quae.
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #Blog
+      -->
+
+      <section class="section project" id="project" aria-label="project">
+        <div class="container">
+
+          <h2 class="h2 section-title">Our Recent Blogs</h2>
+
+          <p class="section-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna
+            aliqua.
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 510; --height: 700;">
+                  <img src="./assets/images/project-1.jpg" width="510" height="700" loading="lazy"
+                    alt="Designing a better cinema experience" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <!-- <p class="card-subtitle">SEO Optimization</p>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Designing a better cinema experience</a>
+                  </h3> -->
+
+                  <a href="#" class="btn btn-primary">View Details</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 510; --height: 700;">
+                  <img src="./assets/images/project-2.jpg" width="510" height="700" loading="lazy"
+                    alt="Building design process within teams" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <!-- <p class="card-subtitle">Digital Marketing</p>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Building design process within teams</a>
+                  </h3> -->
+
+                  <a href="#" class="btn btn-primary">View Details</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 510; --height: 700;">
+                  <img src="./assets/images/project-3.jpg" width="510" height="700" loading="lazy"
+                    alt="How intercom brings play into their design process" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <!-- <p class="card-subtitle">Keyword Targeting</p>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">How intercom brings play into their design process</a>
+                  </h3> -->
+
+                  <a href="#" class="btn btn-primary">View Details</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 510; --height: 700;">
+                  <img src="./assets/images/project-4.jpg" width="510" height="700" loading="lazy"
+                    alt="Stuck with to-do list, I created a new app for" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <!-- <p class="card-subtitle">Email Marketing</p>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Stuck with to-do list, I created a new app for</a>
+                  </h3> -->
+
+                  <a href="#" class="btn btn-primary">View Details</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 510; --height: 700;">
+                  <img src="./assets/images/project-5.jpg" width="510" height="700" loading="lazy"
+                    alt="Examples of different types of sprints" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <!-- <p class="card-subtitle">Marketing & Reporting</p>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Examples of different types of sprints</a>
+                  </h3> -->
+
+                  <a href="#" class="btn btn-primary">View Details</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 510; --height: 700;">
+                  <img src="./assets/images/project-6.jpg" width="510" height="700" loading="lazy"
+                    alt="Redesigning the New York times app" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <!-- <p class="card-subtitle">Development</p>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Redesigning the New York times app</a>
+                  </h3> -->
+
+                  <a href="#" class="btn btn-primary">View Details</a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+
+          <div class="about-banner img-holder" style="--width: 720; --height: 960;">
+            <img src="./assets/images/about-banner.jpg" width="720" height="960" loading="lazy" alt="about banner"
+              class="img-cover">
+
+            <button class="play-btn" aria-label="Play video">
+              <ion-icon name="play" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+
+          <div class="about-content">
+
+            <h2 class="h2 section-title">About Us</h2>
+
+            <p class="section-text">
+              Lorem ipsum dolor sit amet, con se ctetur adipiscing elit. In sagittis eg esta ante, sed viverra nunc
+              tinci dunt nec
+              elei fend et tiram.
+            </p>
+
+            <h3 class="h3">Who We Are</h3>
+
+            <p class="section-text">
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
+              rem aperiam,
+              eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+            </p>
+
+            <h3 class="h3">Our Success</h3>
+
+            <ul class="about-list">
+
+              <li class="about-item">
+                <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
+
+                <p class="section-text">
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </p>
               </li>
 
-              <li class="service-item">
+              <li class="about-item">
+                <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
 
-                <div class="service-item-icon">
-                  <ion-icon name="checkmark-outline"></ion-icon>
-                </div>
-
-                <h3 class="h3 service-item-title">Website Hosting</h3>
-
+                <p class="section-text">
+                  It is a long established fact that a reader will be distracted by the readable content of a page when
+                  looking at its
+                  layout.
+                </p>
               </li>
 
-              <li class="service-item">
+              <li class="about-item">
+                <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
 
-                <div class="service-item-icon">
-                  <ion-icon name="checkmark-outline"></ion-icon>
-                </div>
-
-                <h3 class="h3 service-item-title">Remote Desktop</h3>
-
-              </li>
-
-              <li class="service-item">
-
-                <div class="service-item-icon">
-                  <ion-icon name="checkmark-outline"></ion-icon>
-                </div>
-
-                <h3 class="h3 service-item-title">File Backup</h3>
-
+                <p class="section-text">
+                  Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                  classical Latin
+                  literature.
+                </p>
               </li>
 
             </ul>
 
-          </div>
+            <h3 class="h3">Our Mission</h3>
 
-          <figure class="service-banner">
-            <img src="./assets/images/service-2.png" alt="Illustration art" loading="lazy" class="w-100">
-          </figure>
-
-          <div class="service-content">
-
-            <p class="section-subtitle">Our Services</p>
-
-            <h2 class="h2 section-title">Best IT & technology service in your area</h2>
-
-            <ul class="service-list">
-
-              <li class="service-item">
-
-                <div class="service-item-icon">
-                  <ion-icon name="checkmark-outline"></ion-icon>
-                </div>
-
-                <h3 class="h3 service-item-title">Design & Development</h3>
-
-              </li>
-
-              <li class="service-item">
-
-                <div class="service-item-icon">
-                  <ion-icon name="checkmark-outline"></ion-icon>
-                </div>
-
-                <h3 class="h3 service-item-title">Android Apps Development</h3>
-
-              </li>
-
-              <li class="service-item">
-
-                <div class="service-item-icon">
-                  <ion-icon name="checkmark-outline"></ion-icon>
-                </div>
-
-                <h3 class="h3 service-item-title">Laravel Web Development</h3>
-
-              </li>
-
-              <li class="service-item">
-
-                <div class="service-item-icon">
-                  <ion-icon name="checkmark-outline"></ion-icon>
-                </div>
-
-                <h3 class="h3 service-item-title">React Web Development</h3>
-
-              </li>
-
-            </ul>
+            <p class="section-text">
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti
+              atque corrupti
+              quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in.
+            </p>
 
           </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="section cta" aria-label="cta" style="background-image: url('./assets/images/cta-bg.jpg')">
+        <div class="container">
+
+          <p class="cta-subtitle">So What is Next?</p>
+
+          <h2 class="h2 section-title">Are You Ready? Let's get to Work!</h2>
+
+          <a href="#" class="btn btn-secondary">Get Started</a>
 
         </div>
       </section>
@@ -370,45 +538,33 @@
         - #BLOG
       -->
 
-      <section class="blog" id="blog">
+      <section class="section blog" id="blog" aria-label="blog">
         <div class="container">
 
-          <p class="section-subtitle">Latest News</p>
+          <h2 class="h2 section-title">Latest Updated News</h2>
 
-          <h2 class="h2 section-title">Our latest articles & resources</h2>
+          <p class="section-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna
+            aliqua.
+          </p>
 
-          <ul class="blog-list">
+          <ul class="grid-list">
 
             <li>
               <div class="blog-card">
 
-                <figure class="blog-banner">
-                  <a href="#">
-                    <img src="./assets/images/blog-1.jpg" alt="How is technology working with new things?"
-                      loading="lazy" class="w-100">
-                  </a>
+                <figure class="card-banner img-holder" style="--width: 860; --height: 646;">
+                  <img src="./assets/images/blog-1.jpg" width="860" height="646" loading="lazy"
+                    alt="How to Become a Successful Entry Level UX Designer" class="img-cover">
                 </figure>
 
-                <div class="blog-content">
+                <div class="card-content">
 
-                  <ul class="blog-meta-list">
+                  <time class="time" datetime="2022-06-16">June 16, 2022</time>
 
-                    <li class="blog-meta-item">
-                      <ion-icon name="pricetag-outline"></ion-icon>
-
-                      <a href="#" class="blog-meta-link">Technology</a>
-                    </li>
-
-                    <li class="blog-meta-item">
-                      <ion-icon name="calendar-number-outline"></ion-icon>
-
-                      <time class="blog-meta-time" datetime="2022-02-25">25 Feb, 2022</time>
-                    </li>
-
-                  </ul>
-
-                  <h3 class="h3 blog-title">
-                    <a href="#">How is technology working with new things?</a>
+                  <h3 class="h3">
+                    <a href="#" class="card-title">How to Become a Successful Entry Level UX Designer</a>
                   </h3>
 
                 </div>
@@ -417,35 +573,19 @@
             </li>
 
             <li>
-              <div class="blog-card">
+              <div class="blog-card grid">
 
-                <figure class="blog-banner">
-                  <a href="#">
-                    <img src="./assets/images/blog-2.jpg" alt="Top 10 important tips on IT services & design"
-                      loading="lazy" class="w-100">
-                  </a>
+                <figure class="card-banner img-holder" style="--width: 860; --height: 646;">
+                  <img src="./assets/images/blog-2.jpg" width="860" height="646" loading="lazy"
+                    alt="2022 Local SEO Success: The Year of Everywhere" class="img-cover">
                 </figure>
 
-                <div class="blog-content">
+                <div class="card-content">
 
-                  <ul class="blog-meta-list">
+                  <time class="time" datetime="2022-06-16">June 16, 2022</time>
 
-                    <li class="blog-meta-item">
-                      <ion-icon name="pricetag-outline"></ion-icon>
-
-                      <a href="#" class="blog-meta-link">Design</a>
-                    </li>
-
-                    <li class="blog-meta-item">
-                      <ion-icon name="calendar-number-outline"></ion-icon>
-
-                      <time class="blog-meta-time" datetime="2022-02-25">25 Feb, 2022</time>
-                    </li>
-
-                  </ul>
-
-                  <h3 class="h3 blog-title">
-                    <a href="#">Top 10 important tips on IT services & design</a>
+                  <h3 class="h3">
+                    <a href="#" class="card-title">2022 Local SEO Success: The Year of Everywhere</a>
                   </h3>
 
                 </div>
@@ -454,35 +594,61 @@
             </li>
 
             <li>
-              <div class="blog-card">
+              <div class="blog-card grid">
 
-                <figure class="blog-banner">
-                  <a href="#">
-                    <img src="./assets/images/blog-3.jpg" alt="How our company works in different ways" loading="lazy"
-                      class="w-100">
-                  </a>
+                <figure class="card-banner img-holder" style="--width: 860; --height: 646;">
+                  <img src="./assets/images/blog-3.jpg" width="860" height="646" loading="lazy"
+                    alt="The Guide to Running a Client Discovery Process" class="img-cover">
                 </figure>
 
-                <div class="blog-content">
+                <div class="card-content">
 
-                  <ul class="blog-meta-list">
+                  <time class="time" datetime="2022-06-16">June 16, 2022</time>
 
-                    <li class="blog-meta-item">
-                      <ion-icon name="pricetag-outline"></ion-icon>
+                  <h3 class="h3">
+                    <a href="#" class="card-title">The Guide to Running a Client Discovery Process</a>
+                  </h3>
 
-                      <a href="#" class="blog-meta-link">Startup</a>
-                    </li>
+                </div>
 
-                    <li class="blog-meta-item">
-                      <ion-icon name="calendar-number-outline"></ion-icon>
+              </div>
+            </li>
 
-                      <time class="blog-meta-time" datetime="2022-02-25">25 Feb, 2022</time>
-                    </li>
+            <li>
+              <div class="blog-card grid">
 
-                  </ul>
+                <figure class="card-banner img-holder" style="--width: 860; --height: 646;">
+                  <img src="./assets/images/blog-4.jpg" width="860" height="646" loading="lazy"
+                    alt="3 Ways to Get Client Approval for Scope Changes" class="img-cover">
+                </figure>
 
-                  <h3 class="h3 blog-title">
-                    <a href="#">How our company works in different ways</a>
+                <div class="card-content">
+
+                  <time class="time" datetime="2022-06-16">June 16, 2022</time>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">3 Ways to Get Client Approval for Scope Changes</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card grid">
+
+                <figure class="card-banner img-holder" style="--width: 860; --height: 646;">
+                  <img src="./assets/images/blog-5.jpg" width="860" height="646" loading="lazy"
+                    alt="Top 21 Must-Read Blogs For Creative Agencies" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <time class="time" datetime="2022-06-16">June 16, 2022</time>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Top 21 Must-Read Blogs For Creative Agencies</a>
                   </h3>
 
                 </div>
@@ -500,33 +666,113 @@
 
 
       <!-- 
-        - #NEWSLETTER
+        - #CONTACT
       -->
 
-      <section class="newsletter" id="newsletter">
+      <section class="section contact" id="contact" aria-label="contact">
         <div class="container">
 
-          <figure class="newsletter-banner">
-            <img src="./assets/images/newsletter.png" alt="Illustration art" loading="lazy" class="w-100">
-          </figure>
+          <h2 class="h2 section-title">Let's Contact With Us</h2>
 
-          <div class="newsletter-content">
+          <p class="section-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna
+            aliqua.
+          </p>
 
-            <p class="section-subtitle">Subscribe Our Newsletter</p>
+          <form action="" class="contact-form">
 
-            <h2 class="h2 section-title">The latest resources, sent to your inbox weekly</h2>
+            <div class="input-wrapper">
+              <input type="text" name="name" aria-label="name" placeholder="Your name*" required class="input-field">
 
-            <form action="" class="newsletter-form">
-              <input type="email" name="email" required placeholder="Enter your email address" class="input-field">
+              <input type="email" name="email_address" aria-label="email" placeholder="Email address*" required
+                class="input-field">
+            </div>
 
-              <button type="submit" class="btn btn-primary">
-                <span>Subscribe Now</span>
+            <div class="input-wrapper">
+              <input type="text" name="subject" aria-label="subject" placeholder="Subject" class="input-field">
 
-                <ion-icon name="chevron-forward-outline"></ion-icon>
-              </button>
-            </form>
+              <input type="number" name="phone" aria-label="phone" placeholder="Phone number" class="input-field">
+            </div>
 
-          </div>
+            <textarea name="message" aria-label="message" placeholder="Your message...*" required
+              class="input-field"></textarea>
+
+            <div class="checkbox-wrapper">
+              <input type="checkbox" name="terms_and_policy" id="terms" required class="checkbox">
+
+              <label for="terms" class="label">
+                Accept <a href="#" class="label-link">Terms of Services</a> and <a href="#" class="label-link">Privacy
+                  Policy</a>
+              </label>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Send Message</button>
+
+          </form>
+
+          <ul class="contact-list">
+
+            <li class="contact-item">
+              <div class="contact-card">
+
+                <div class="card-icon">
+                  <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Mail Here</h3>
+
+                  <a href="mailto:hello@luaz.com" class="card-link">hello@luaz.com</a>
+                  <a href="mailto:info@luaz.com" class="card-link">info@luaz.com</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="contact-card">
+
+                <div class="card-icon">
+                  <ion-icon name="map-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Visit Here</h3>
+
+                  <address class="card-address">
+                    27 Division St, New York,<br>
+                    NY 10002, USA
+                  </address>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="contact-card">
+
+                <div class="card-icon">
+                  <ion-icon name="headset-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Call Here</h3>
+
+                  <a href="tel:+1234567890" class="card-link">+123 456 7890</a>
+                  <a href="tel:+2414524526" class="card-link">+241 452 4526</a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
 
         </div>
       </section>
@@ -543,146 +789,13 @@
   -->
 
   <footer class="footer">
+    <div class="container">
 
-    <div class="footer-top">
-      <div class="container">
+      <p class="copyright">
+        &copy; 2022 All Rights Reserved by <a href="#" class="copyright-link">codewithsadee</a>
+      </p>
 
-        <div class="footer-brand">
-
-          <a href="#" class="logo">
-            <img src="./assets/images/logo.svg" alt="Solutry logo">
-          </a>
-
-          <p class="section-text">
-            Lorem ipsum dolor sit amet, consectetur, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-            minim.
-          </p>
-
-          <div class="location-text">
-            <div class="location-icon">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <address class="address">
-              2750 Quadra Street Victoria, Canada.
-            </address>
-          </div>
-
-        </div>
-
-        <div class="quicklink-box">
-          <p class="h3 quicklink-title">Quick links</p>
-
-          <ul class="quicklink-list">
-
-            <li>
-              <a href="#" class="quicklink">IT Startup</a>
-            </li>
-
-            <li>
-              <a href="#" class="quicklink">Software</a>
-            </li>
-
-            <li>
-              <a href="#" class="quicklink">Business</a>
-            </li>
-
-            <li>
-              <a href="#" class="quicklink">App</a>
-            </li>
-
-            <li>
-              <a href="#" class="quicklink">Insurance</a>
-            </li>
-
-            <li>
-              <a href="#" class="quicklink">Property</a>
-            </li>
-
-            <li>
-              <a href="#" class="quicklink">Big Data</a>
-            </li>
-
-            <li>
-              <a href="#" class="quicklink">Distance Learning</a>
-            </li>
-
-            <li>
-              <a href="#" class="quicklink">Chatbot</a>
-            </li>
-
-            <li>
-              <a href="#" class="quicklink">Medical</a>
-            </li>
-
-          </ul>
-        </div>
-
-        <div class="contact">
-          <p class="h3 contact-title">Contact with us</p>
-
-          <ul class="contact-list">
-
-            <li class="contact-item">
-              <div class="contact-icon">
-                <ion-icon name="mail-outline"></ion-icon>
-              </div>
-
-              <a href="mailto:hello@solutry.com" class="contact-link">hello@solutry.com</a>
-            </li>
-
-            <li class="contact-item">
-              <div class="contact-icon">
-                <ion-icon name="call-outline"></ion-icon>
-              </div>
-
-              <a href="tel:+14854560102" class="contact-link">+1-485-456-0102</a>
-            </li>
-
-          </ul>
-        </div>
-
-      </div>
     </div>
-
-    <div class="footer-bottom">
-      <div class="container">
-
-        <p class="copyright">
-          &copy; 2022 <a href="#">codewithsadee</a>. All Rights Reserved
-        </p>
-
-        <ul class="social-list">
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
-      </div>
-    </div>
-
   </footer>
 
 
@@ -690,11 +803,11 @@
 
 
   <!-- 
-    - #GO TO TOP
+    - #BACK TO TOP
   -->
 
-  <a href="#top" class="go-top active" data-go-top>
-    <ion-icon name="chevron-up-outline"></ion-icon>
+  <a href="#top" aria-label="back to top" data-back-top-btn class="back-top-btn">
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
   </a>
 
 
@@ -704,7 +817,7 @@
   <!-- 
     - custom js link
   -->
-  <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/script.js" defer></script>
 
   <!-- 
     - ionicon link
