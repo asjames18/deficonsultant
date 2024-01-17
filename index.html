@@ -116,6 +116,73 @@
         </div>
       </section>
 
+      <!-- TradingView Widget BEGIN -->
+          <div class="tradingview-widget-container">
+            <div class="tradingview-widget-container__widget"></div>
+            <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com" rel="noopener" target="_blank"><span class="blue-text"></span></a></div>
+            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+            {
+            "symbols": [
+              {
+                "description": "",
+                "proName": "COINBASE:BTCUSD"
+              },
+              {
+                "description": "",
+                "proName": "MEXC:XENUSDT"
+              },
+              {
+                "description": "",
+                "proName": "UNISWAP:HEXUSDC"
+              },
+              {
+                "description": "",
+                "proName": "BINANCE:BNBUSDT"
+              },
+              {
+                "description": "",
+                "proName": "BINANCE:DOGEUSDT"
+              }
+            ],
+            "colorTheme": "dark",
+            "isTransparent": false,
+            "locale": "en"
+          }
+            </script>
+            <div class="tradingview-widget-container__widget"></div>
+            <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com" rel="noopener" target="_blank"><span class="blue-text"></span></a></div>
+            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+            {
+            "symbols": [
+              {
+                "description": "",
+                "proName": "COINBASE:ETHUSD"
+
+              },
+              {
+                "description": "",
+                "proName": "COINBASE:MATICUSDT"
+              },
+              {
+                "description": "",
+                "proName": "COINBASE:OPUSDT"
+              },
+              {
+                "description": "",
+                "proName": "BINANCE:ADAUSDT"
+              },
+              {
+                "description": "",
+                "proName": "BINANCE:XRPUSDT"
+              }
+            ],
+            "colorTheme": "dark",
+            "isTransparent": false,
+            "locale": "en"
+          }
+            </script>
+          </div>
+          <!-- TradingView Widget END -->
 
 
 
@@ -550,11 +617,15 @@
           </p>
 
           <ul class="grid-list">
-
-            <li>
+            
+            <a href="https://cryptopanic.com/" target="_blank" data-news_feed="trending" data-bg_color="#1E222D" data-text_color="#C8C8C8" data-link_color="#FFFFFF" data-header_bg_color="#232368" data-header_text_color="#FFFFFF" data-posts_limit="10" data-font_family="sans" class="CryptoPanicWidget">Latest News</a>
+            <a href="https://cryptopanic.com/" target="_blank" data-news_feed="recent" data-font_family="sans" data-posts_limit="10" data-bg_color="#1E222D" data-text_color="#C8C8C8" data-link_color="#FFFFFF" data-header_bg_color="#232368" data-header_text_color="#FFFFFF" class="CryptoPanicWidget">Latest News</a>
+          
+            <!-- <li>
               <div class="blog-card">
 
                 <figure class="card-banner img-holder" style="--width: 860; --height: 646;">
+                  
                   <img src="./assets/images/blog-1.jpg" width="860" height="646" loading="lazy"
                     alt="How to Become a Successful Entry Level UX Designer" class="img-cover">
                 </figure>
@@ -654,7 +725,7 @@
                 </div>
 
               </div>
-            </li>
+            </li> -->
 
           </ul>
 
@@ -818,6 +889,8 @@
     - custom js link
   -->
   <script src="./assets/js/script.js" defer></script>
+  <script src="https://www.cryptohopper.com/widgets/js/script"></script>
+  <script src="https://static.cryptopanic.com/static/js/widgets.min.js"></script>
 
   <!-- 
     - ionicon link
