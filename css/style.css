@@ -276,6 +276,10 @@ body {
   font-weight: var(--fw-700);
   line-height: 1;
 }
+.header .container img{
+  height: 6rem;
+  width: 10rem;
+}
 
 .nav-toggle-btn { font-size: 40px; }
 
