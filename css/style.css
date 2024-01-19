@@ -607,22 +607,9 @@ body {
 }
 .cryptoboxes table.dataTable.dtr-inline.collapsed>tbody>tr[role=row]>td:first-child:before,
 .cryptoboxes table.dataTable.dtr-inline.collapsed>tbody>tr[role=row]>th:first-child:before {
-  top:50%;
-  left:15px;
-  display:block;
-  position:absolute;
-  color:#fff;
-  box-sizing:content-box;
-  text-align:center;
-  text-indent:0!important;
-  font-family:massive-crypto,sans-serif;
-  line-height:16px;
-  content:'\6c';
+
   background-color:#fda118 !important;
-  padding:6px;
-  border-radius:4px;
-  font-size:1.1em;
-  transform:translateY(-50%)
+
 }
 
 
