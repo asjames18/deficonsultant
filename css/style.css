@@ -20,9 +20,9 @@
    * colors
    */
 
-  --safety-orange: hsl(45, 100%, 50%);
+  --safety-orange: hsl(34, 100%, 50%);
   --lavender-gray: hsl(230, 19%, 81%);
-  --persian-rose: hsl(38, 100%, 50%);
+  --persian-rose: hsl(45, 90%, 68%);
   --red-crayola: hsl(357, 100%, 50%);
   --eerie-black: hsl(240, 6%, 10%);
   --light-gray: hsl(0, 0%, 80%);
@@ -605,8 +605,25 @@ body {
   box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.2);
 
 }
-
-
+.cryptoboxes table.dataTable.dtr-inline.collapsed>tbody>tr[role=row]>td:first-child:before,
+.cryptoboxes table.dataTable.dtr-inline.collapsed>tbody>tr[role=row]>th:first-child:before {
+  top:50%;
+  left:15px;
+  display:block;
+  position:absolute;
+  color:#fff;
+  box-sizing:content-box;
+  text-align:center;
+  text-indent:0!important;
+  font-family:massive-crypto,sans-serif;
+  line-height:16px;
+  content:'\6c';
+  background-color:#fda118 !important;
+  padding:6px;
+  border-radius:4px;
+  font-size:1.1em;
+  transform:translateY(-50%)
+}
 
 
 /*-----------------------------------*\
