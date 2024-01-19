@@ -275,10 +275,12 @@ body {
   font-size: 3.5rem;
   font-weight: var(--fw-700);
   line-height: 1;
+  padding-right: 6rem;
 }
 .header .container img{
   height: 6rem;
-  width: 10rem;
+  width: 7rem;
+  padding: 0;
 }
 
 .nav-toggle-btn { font-size: 40px; }
