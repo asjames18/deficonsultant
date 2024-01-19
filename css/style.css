@@ -370,6 +370,9 @@ body {
   margin-inline: auto;
   margin-block-start: 20px;
 }
+#home{
+  padding-bottom: 0;
+}
 
 
 
