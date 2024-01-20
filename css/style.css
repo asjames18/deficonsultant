@@ -439,6 +439,10 @@ body {
   transition: var(--transition-2);
 }
 
+.scroll-container table thead tr
+{ display: none !important;
+}
+
 .project-card:is(:hover, :focus-within)::after { opacity: 0.8; }
 
 .project-card .card-content {
