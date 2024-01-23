@@ -25,6 +25,35 @@
   <link
     href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&family=Roboto:wght@400;500;700&display=swap"
     rel="stylesheet">
+
+    <!-- Start of Async Drift Code -->
+<script>
+  "use strict";
+  
+  !function() {
+    var t = window.driftt = window.drift = window.driftt || [];
+    if (!t.init) {
+      if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+      t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+      t.factory = function(e) {
+        return function() {
+          var n = Array.prototype.slice.call(arguments);
+          return n.unshift(e), t.push(n), t;
+        };
+      }, t.methods.forEach(function(e) {
+        t[e] = t.factory(e);
+      }), t.load = function(t) {
+        var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+        o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+        var i = document.getElementsByTagName("script")[0];
+        i.parentNode.insertBefore(o, i);
+      };
+    }
+  }();
+  drift.SNIPPET_VERSION = '0.3.1';
+  drift.load('hwenswvczcxn');
+  </script>
+  <!-- End of Async Drift Code -->
 </head>
 
 <body id="top">
@@ -196,8 +225,12 @@
           <h2 class="h2 section-title">Services We Provided</h2>
 
           <p class="section-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna.
+            Discover the comprehensive range of services we offer to guide 
+            you through the exciting realm of decentralized finance (DeFi) 
+            and cryptocurrency. From educational resources and consulting to 
+            tailored support, we're here to empower your journey and help you 
+            thrive in the world of DeFi. Explore how our services can elevate 
+            your understanding and success in this dynamic ecosystem.
           </p>
 
           <ul class="grid-list">
@@ -351,9 +384,11 @@
           <h2 class="h2 section-title">Our Recent Articles</h2>
 
           <p class="section-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna
-            aliqua.
+            Stay informed with our latest insights on DeFi and cryptocurrency. 
+            Explore market trends, project reviews, and tutorials to empower your 
+            journey in the dynamic world of decentralized finance. Whether you're 
+            a beginner or an enthusiast, our recent articles keep you in the know. 
+            Happy reading!
           </p>
 
           <ul class="grid-list">
@@ -615,7 +650,7 @@
 
           <p class="cta-subtitle">So What is Next?</p>
 
-          <h2 class="h2 section-title">Are You Ready? Let's stack some Crypto!</h2>
+          <h2 class="h2 section-title">Are You Ready? Let's Stack Some Crypto!</h2>
 
           <!-- <a href="#" class="btn btn-secondary">Get Started</a> -->
 
