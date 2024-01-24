@@ -10,7 +10,7 @@
   <!-- 
     - favicon
   -->
-  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="shortcut icon" href="assets/images/Logo.png" type="image/svg+xml">
 
   <!-- 
     - custom css link
@@ -25,6 +25,35 @@
   <link
     href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&family=Roboto:wght@400;500;700&display=swap"
     rel="stylesheet">
+
+    <!-- Start of Async Drift Code -->
+<script>
+  "use strict";
+  
+  !function() {
+    var t = window.driftt = window.drift = window.driftt || [];
+    if (!t.init) {
+      if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+      t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+      t.factory = function(e) {
+        return function() {
+          var n = Array.prototype.slice.call(arguments);
+          return n.unshift(e), t.push(n), t;
+        };
+      }, t.methods.forEach(function(e) {
+        t[e] = t.factory(e);
+      }), t.load = function(t) {
+        var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+        o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+        var i = document.getElementsByTagName("script")[0];
+        i.parentNode.insertBefore(o, i);
+      };
+    }
+  }();
+  drift.SNIPPET_VERSION = '0.3.1';
+  drift.load('hwenswvczcxn');
+  </script>
+  <!-- End of Async Drift Code -->
 </head>
 
 <body id="top">
@@ -50,7 +79,7 @@
           </li>
 
           <li>
-            <a href="#project" class="navbar-link" data-nav-link>Project</a>
+            <a href="#project" class="navbar-link" data-nav-link>Articles</a>
           </li>
 
           <li>
@@ -58,7 +87,7 @@
           </li>
 
           <li>
-            <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+            <a href="#blog" class="navbar-link" data-nav-link>News</a>
           </li>
 
           <li>
@@ -192,8 +221,12 @@
           <h2 class="h2 section-title">Services We Provided</h2>
 
           <p class="section-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna.
+            Discover the comprehensive range of services we offer to guide 
+            you through the exciting realm of decentralized finance (DeFi) 
+            and cryptocurrency. From educational resources and consulting to 
+            tailored support, we're here to empower your journey and help you 
+            thrive in the world of DeFi. Explore how our services can elevate 
+            your understanding and success in this dynamic ecosystem.
           </p>
 
           <ul class="grid-list">
@@ -209,9 +242,10 @@
                 </h3>
 
                 <p class="card-text">
-                  Sed ut perspiciatis unde omnis iste natus error sit tatem accusantium doloremque laudantium, totam rem
-                  aperiam, eaque
-                  ipsa quae.
+                  Securely navigate the crypto landscape with our wallet management services. 
+                  From setting up your wallet to implementing best security practices, 
+                  we ensure your digital assets are handled with the utmost care. 
+                  Explore hassle-free management and gain peace of mind in your crypto journey.
                 </p>
 
               </div>
@@ -229,9 +263,11 @@
                 </h3>
 
                 <p class="card-text">
-                  Sed ut perspiciatis unde omnis iste natus error sit tatem accusantium doloremque laudantium, totam rem
-                  aperiam, eaque
-                  ipsa quae.
+                  Unlock the power of informed decision-making in the ever-evolving world 
+                  of crypto investments. Dive into our comprehensive research resources, 
+                  offering deep insights, market analysis, and strategic perspectives. 
+                  Elevate your investment game with data-driven intelligence tailored 
+                  for success in decentralized finance.
                 </p>
 
               </div>
@@ -249,9 +285,11 @@
                 </h3>
 
                 <p class="card-text">
-                  Sed ut perspiciatis unde omnis iste natus error sit tatem accusantium doloremque laudantium, totam rem
-                  aperiam, eaque
-                  ipsa quae.
+                  Navigate the dynamic crypto markets with confidence through our in-depth 
+                  market research. Stay ahead of trends, explore potential opportunities, 
+                  and make well-informed decisions. Empower your trading strategies with 
+                  timely and insightful analysis curated to keep you at the forefront of 
+                  the evolving decentralized finance landscape.
                 </p>
 
               </div>
@@ -269,9 +307,11 @@
                 </h3>
 
                 <p class="card-text">
-                  Sed ut perspiciatis unde omnis iste natus error sit tatem accusantium doloremque laudantium, totam rem
-                  aperiam, eaque
-                  ipsa quae.
+                  Discover seamless trading experiences on top crypto exchanges. 
+                  Explore our curated selection of platforms, complete with user-friendly 
+                  interfaces and advanced tools. Whether you're a beginner or an experienced 
+                  trader, optimize your strategies and execute trades efficiently with our 
+                  guidance in the fast-paced world of cryptocurrency exchanges.
                 </p>
 
               </div>
@@ -281,16 +321,19 @@
               <div class="service-card">
 
                 <div class="card-icon" style="background-color: #00d280">
-                  <ion-icon name="swap-vertical-outline"></ion-icon>                </div>
-
+                  <ion-icon name="swap-vertical-outline"></ion-icon>                
+                </div>
                 <h3 class="h3">
                   <p class="card-title">On and Off Ramp</p>
                 </h3>
 
                 <p class="card-text">
-                  Sed ut perspiciatis unde omnis iste natus error sit tatem accusantium doloremque laudantium, totam rem
-                  aperiam, eaque
-                  ipsa quae.
+                  Effortlessly transition between traditional and crypto finance 
+                  with our on and off-ramp services. Seamlessly convert between
+                   fiat and digital assets, ensuring a smooth entry and exit 
+                   into the decentralized finance space. Simplify your financial
+                    journey by bridging the gap between conventional and crypto 
+                    economies with our reliable on and off-ramp solutions.
                 </p>
 
               </div>
@@ -308,9 +351,11 @@
                 </h3>
 
                 <p class="card-text">
-                  Sed ut perspiciatis unde omnis iste natus error sit tatem accusantium doloremque laudantium, totam rem
-                  aperiam, eaque
-                  ipsa quae.
+                  Uncover valuable insights and expert hacks in our Tips and Tricks section. 
+                  Elevate your DeFi and crypto experience with practical advice, shortcuts, 
+                  and strategies shared by seasoned professionals. Stay ahead of the curve and 
+                  maximize your gains with these curated tips to navigate the intricacies 
+                  of the decentralized finance world.
                 </p>
 
               </div>
@@ -331,9 +376,11 @@
           <h2 class="h2 section-title">Our Recent Articles</h2>
 
           <p class="section-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna
-            aliqua.
+            Stay informed with our latest insights on DeFi and cryptocurrency. 
+            Explore market trends, project reviews, and tutorials to empower your 
+            journey in the dynamic world of decentralized finance. Whether you're 
+            a beginner or an enthusiast, our recent articles keep you in the know. 
+            Happy reading!
           </p>
 
           <ul class="grid-list">
@@ -524,17 +571,18 @@
             <h2 class="h2 section-title">About Us</h2>
 
             <p class="section-text">
-              Lorem ipsum dolor sit amet, con se ctetur adipiscing elit. In sagittis eg esta ante, sed viverra nunc
-              tinci dunt nec
-              elei fend et tiram.
+              Get to know the heartbeat behind our DeFi initiative. Meet the passionate 
+              individuals dedicated to fostering education and growth in the crypto space.
+               Discover our mission, values, and the expertise that drives us to empower you
+                on your journey through decentralized finance.
             </p>
 
             <h3 class="h3">Who We Are</h3>
 
             <p class="section-text">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
-              rem aperiam,
-              eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+              We are your trusted partners in navigating the world of decentralized finance. 
+              Committed to empowering individuals, we provide a wealth of resources, services, 
+              and expertise. Whether you're a novice or seasoned participant, discover the strength of knowledge and support that defines who we are in the realm of crypto and DeFi.
             </p>
 
             <h3 class="h3">Our Success</h3>
@@ -545,7 +593,8 @@
                 <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
 
                 <p class="section-text">
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                  Community Success: We thrive as our community grows, supporting both 
+                  newcomers and experienced individuals in decentralized finance.
                 </p>
               </li>
 
@@ -553,9 +602,8 @@
                 <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
 
                 <p class="section-text">
-                  It is a long established fact that a reader will be distracted by the readable content of a page when
-                  looking at its
-                  layout.
+                  Knowledge Triumph: Our success is seen in milestones of knowledge gained, 
+                  offering valuable insights and resources for understanding decentralized finance.
                 </p>
               </li>
 
@@ -563,9 +611,8 @@
                 <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
 
                 <p class="section-text">
-                  Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
-                  classical Latin
-                  literature.
+                  Financial Empowerment: We measure success through the financial empowerment 
+                  of our community, providing opportunities to achieve milestones in decentralized finance.
                 </p>
               </li>
 
@@ -574,9 +621,10 @@
             <h3 class="h3">Our Mission</h3>
 
             <p class="section-text">
-              At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti
-              atque corrupti
-              quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in.
+              Empowering individuals in the decentralized finance landscape is at the core of our mission. 
+              We strive to provide accessible education, reliable services, and expert guidance, enabling 
+              everyone to navigate, learn, and grow in the dynamic world of crypto. Join us on a mission to 
+              unlock the full potential of decentralized finance for individuals worldwide.
             </p>
 
           </div>
@@ -593,7 +641,7 @@
 
           <p class="cta-subtitle">So What is Next?</p>
 
-          <h2 class="h2 section-title">Are You Ready? Let's stack some Crypto!</h2>
+          <h2 class="h2 section-title">Are You Ready? Let's Stack Some Crypto!</h2>
 
           <!-- <a href="#" class="btn btn-secondary">Get Started</a> -->
 
@@ -615,22 +663,23 @@
           <h2 class="h2 section-title">Latest Updated News</h2>
 
           <p class="section-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna
-            aliqua.
+            Stay informed with our real-time updates on the latest happenings in the crypto and DeFi space. 
+            Explore breaking news, market insights, and key developments that shape the landscape of decentralized
+            finance. Trust us to keep you in the loop with the most recent and relevant information to enhance your
+             understanding of the dynamic crypto world.
           </p>
 
           <ul class="grid-list">
             
             <a href="https://cryptopanic.com/" target="_blank" data-news_feed="trending" 
             data-bg_color="#f8fafb" data-text_color="#efad39" 
-            data-link_color="#000000" data-header_bg_color="#232368" 
+            data-link_color="#000000" data-header_bg_color="#e30713" 
             data-header_text_color="#FFFFFF" data-posts_limit="10" 
-            data-font_family="sans" class="CryptoPanicWidget">Latest News</a>
+            data-font_family="sans" class="CryptoPanicWidget">Trending News</a>
 
             <a href="https://cryptopanic.com/" target="_blank" data-news_feed="recent" 
             data-font_family="sans" data-posts_limit="10" data-bg_color="#f8fafb" 
-            data-text_color="#efad39" data-link_color="#000000" data-header_bg_color="#232368" 
+            data-text_color="#efad39" data-link_color="#000000" data-header_bg_color="#e30713" 
             data-header_text_color="#FFFFFF" class="CryptoPanicWidget">Latest News</a>
           
             <!-- <li>
@@ -751,15 +800,16 @@
       <section class="section contact" id="contact" aria-label="contact">
         <div class="container">
 
-          <h2 class="h2 section-title">Let's Contact With Us</h2>
+          <h2 class="h2 section-title"> Contact Us</h2>
 
           <p class="section-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna
-            aliqua.
+            Reach out to us for inquiries, consultations, or any assistance you may need. Our team is 
+            dedicated to supporting your growth and success in the decentralized finance ecosystem. 
+            Connect with us through the provided channels, and let's embark on your journey together.
           </p>
+          <script type="text/javascript" src="https://form.jotform.com/jsform/240227367851155"></script>
 
-          <form action="" class="contact-form">
+          <!-- <form name="contact" method="POST" netlify>
 
             <div class="input-wrapper">
               <input type="text" name="name" aria-label="name" placeholder="Your name*" required class="input-field">
@@ -775,7 +825,7 @@
             </div>
 
             <textarea name="message" aria-label="message" placeholder="Your message...*" required
-              class="input-field"></textarea>
+              class="input-field"></textarea> -->
 
             <!-- <div class="checkbox-wrapper">
               <input type="checkbox" name="terms_and_policy" id="terms" required class="checkbox">
@@ -786,9 +836,9 @@
               </label>
             </div> -->
 
-            <button type="submit" class="btn btn-primary">Send Message</button>
+            <!-- <button type="submit" class="btn btn-primary">Send Message</button>
 
-          </form>
+          </form> -->
 
           <!-- <ul class="contact-list">
 
