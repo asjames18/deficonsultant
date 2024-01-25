@@ -406,6 +406,10 @@ body {
 
 .service-card .card-text { font-size: var(--fs-6); }
 
+.service-card.wallet-card,
+.service-card.tips-card{
+  padding-bottom: 45px;
+}
 
 
 
