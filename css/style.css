@@ -621,7 +621,10 @@ body {
   height:80rem;
   width: 100%;
 }
-
+.swapzone{
+  padding: 0;
+  background: #0f0f0f;
+}
 
 /*-----------------------------------*\
   #CONTACT
