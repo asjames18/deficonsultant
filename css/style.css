@@ -412,6 +412,17 @@ body {
 }
 
 
+/*-----------------------------------*\
+  #Investment
+\*-----------------------------------*/
+.investment-card {
+  position: relative;
+  border-radius: var(--radius-8);
+  overflow: hidden;
+  width:20rem;
+  height: 20rem;
+}
+.grid-list_investment { grid-template-columns: repeat(4, 1fr); }
 
 
 /*-----------------------------------*\
@@ -622,9 +633,13 @@ body {
   width: 100%;
 }
 .swapzone{
-  padding: 0;
+  padding: 10rem 30rem;
   background: #0f0f0f;
 }
+.swapzone .h2{
+  color: #fda118;
+}
+
 
 /*-----------------------------------*\
   #CONTACT
@@ -967,6 +982,8 @@ textarea.input-field {
   .container { max-width: 960px; }
 
   .grid-list { grid-template-columns: repeat(3, 1fr); }
+  .grid-list_investment { grid-template-columns: repeat(5, 1fr); }
+
 
 
 
