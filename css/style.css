@@ -241,9 +241,35 @@ body {
   height: 100%;
   object-fit: cover;
 }
+.img-cover2 {
+  width: 100%;
+  height: 60%;
+  /* object-fit: cover; */
+}
+.img-cover3 {
+  width: 100%;
+  height: 73%;
+  object-fit: cover;
+}
+.img-cover4 {
+  width: 100%;
+  height: 73%;
+  object-fit: cover;
+}
+.img-cover5 {
+  width: 100%;
+  height: 73%;
+  object-fit: cover;
+}
+.img-cover6{
+  width: 100%;
+  height: 73%;
+  object-fit: cover;
+}
 
-
-
+.btn-investment{
+  padding: 10px;
+}
 
 
 /*-----------------------------------*\
