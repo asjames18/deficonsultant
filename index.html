@@ -1079,7 +1079,7 @@
         - #CONTACT
       -->
 
-      <section class="section contact" id="contact" aria-label="contact">
+      <!-- <section class="section contact" id="contact" aria-label="contact">
         <div class="container">
 
           <h2 class="h2 section-title"> Contact Us</h2>
@@ -1089,7 +1089,61 @@
             dedicated to supporting your growth and success in the decentralized finance ecosystem. 
             Connect with us through the provided channels, and let's embark on your journey together.
           </p>
-          <script type="text/javascript" src="https://form.jotform.com/jsform/240227367851155"></script>
+          <form class="telegram" id="telegramForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+    
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+    
+            <button type="submit">Send</button>
+        </form>
+    
+        <script>
+            document.getElementById("telegramForm").addEventListener("submit", function(e) {
+                e.preventDefault(); // Prevent form submission
+    
+                // Replace with your bot token and chat ID
+                const botToken = "8052500673:AAHkY8ncE9W2xELt8Ay7SPJgWPTxBUF8Rcg";
+                const chatId = "DonChattingBot";
+    
+                // Collect form data
+                const name = document.getElementById("name").value;
+                const email = document.getElementById("email").value;
+                const message = document.getElementById("message").value;
+    
+                // Format message
+                const text = `New Contact Form Submission:\n\nName: ${name}\nEmail: ${email}\nMessage: ${message}`;
+    
+                // Send data to Telegram bot
+                fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify({
+                        chat_id: chatId,
+                        text: text
+                    })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.ok) {
+                        alert("Message sent successfully!");
+                    } else {
+                        alert("Error sending message. Please try again.");
+                    }
+                })
+                .catch(error => {
+                    console.error("Error:", error);
+                    alert("An error occurred. Please try again.");
+                });
+            });
+        </script> -->
+          <!-- <script type="text/javascript" src="https://form.jotform.com/jsform/240227367851155"></script> -->
 
           <!-- <form name="contact" method="POST" netlify>
 
