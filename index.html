@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
   <meta charset="UTF-8">
@@ -16,6 +16,8 @@
     - custom css link
   -->
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/image-loading.css">
+  <link rel="stylesheet" href="css/theme.css">
 
   <!-- 
     - google font link
@@ -54,6 +56,10 @@
   drift.load('hwenswvczcxn');
   </script>
   <!-- End of Async Drift Code -->
+  <script src="js/image-optimization.js" defer></script>
+  <script src="js/theme.js" defer></script>
+  <script src="js/error-boundary.js" defer></script>
+  <script src="js/transitions.js" defer></script>
 </head>
 
 <body id="top">
@@ -1294,6 +1300,12 @@
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <!-- Add skeleton loading states -->
+  <div class="skeleton-container">
+    <!-- Example of a skeleton card -->
+    <div class="card skeleton" style="height: 200px; margin-bottom: 20px;"></div>
+  </div>
 
 </body>
 
